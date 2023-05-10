@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.exemplo{
+    width: 100vw;
+    height: 100vh; 
+    background: linear-gradient(-75deg, white, rgb(101, 133, 228), blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: max-content;
+    height: max-content;
+    background-color: #ccc;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+
+form input{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 2px 4px;
+}
+
+form a{
+    text-decoration: none;
+
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 2px solid;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form h2{
+    text-align: center;
+}
+
+form p{
+    text-align: center;
+}
